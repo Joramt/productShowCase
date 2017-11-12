@@ -1,0 +1,238 @@
+body {
+	margin: 0;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #616161;
+}
+
+.header {
+	height: 52px;
+	background: #3e4645;
+}
+
+.header div h1 {
+	font-size: 28px;
+	margin: 0;
+}
+
+.header div h1 img {
+	width: 154px;
+	height: 22px;
+	display: block;
+	margin: auto;
+	padding-top: 15px;
+	cursor: pointer;
+}
+
+.ContenuWrapper {
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 50px;
+}
+
+.headerContenu {
+	margin-top: 20px;
+}
+
+.contenuCart {
+	margin-top: 10px;
+}
+
+.headerContenu h2 {
+	margin: 0;
+	text-align: center;
+	color: rgb(97, 97, 97);
+	padding: 15px;
+	font-size: 30px;
+	border-bottom: dashed rgb(193, 193, 193) 1px;
+	font-weight: 300;
+}
+
+.contenuCart div .select {
+	width: 86px;
+	height: 44px;
+	margin-right: 10px;
+	cursor: pointer;
+	background-color: #eee;
+	border-radius: 4px;
+	position: relative;
+	float: left;
+}
+
+.contenuCart div .select select {
+	position: relative;
+	-webkit-appearance: none;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 18px;
+	color: #999;
+	display: inline-block;
+	width: 100%;
+	border: 0;
+	cursor: pointer;
+	padding: 10px 45px 10px 12px;
+	background-color: transparent;
+	z-index: 2;
+	/*margin: 0;padding: 0;*/
+}
+
+.contenuCart div .select select option {
+	color: #111111;
+}
+
+.iconDown {
+	position: absolute;
+	right: 9px;
+	top: 7px;
+	font-size: 1.33333333em;
+	z-index: 1;
+}
+
+.iconDown i {
+	
+}
+
+.cont1 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: dashed rgb(193, 193, 193) 1px;
+	height: 47px;
+}
+
+.select:hover .select select {
+	background-color: #1681b4;
+}
+
+.select:hover .select select option {
+	color: white;
+}
+
+.select:hover .iconDown {
+	color: white;
+}
+
+.cont1 img {
+	width: 33px;
+	height: 44px;
+	margin-right: 15px;
+	border-radius: 3px;
+	float: left;
+}
+
+.info {
+	height: 45px;
+	float: left;
+}
+
+.info .title {
+	display: block;
+	font-size: 21px;
+	font-weight: 300;
+	color: #313131;
+}
+
+.info span a {
+	text-decoration: none;
+	color: #1ba1e2;
+	font-size: 14px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.price {
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 4px;
+}
+
+.price span {
+	font-weight: 300;
+	font-size: 30px;
+	color: rgb(49, 49, 49);
+}
+
+/********************************/
+.footerContenuCart {
+	position: relative;
+}
+
+.footerContenuCart .left {
+	width: 227px;
+	height: 50px;
+	background-color: rgb(238, 238, 238);
+	border-radius: 7px;
+}
+
+.footerContenuCart .left a {
+	text-decoration: none;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	color: inherit;
+}
+
+.right {
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.right #labeltotale {
+	display: block;
+}
+
+#totale {
+	font-weight: 300;
+	font-size: 30px;
+	color: rgb(49, 49, 49);
+}
+
+#labeltotale {
+	text-align: right;
+}
+
+.comment {
+	margin-top: 20px;
+}
+
+#labelcomment {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#textarea {
+	padding-top: 3px;
+	padding-left: 3px;
+	margin-top: 0px;
+	width: 100%;
+	height: 86px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.checkout {
+	text-align: right;
+}
+
+#chek {
+	background-color: rgb(27, 161, 226);
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline-block;
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	height: 45px;
+	transition-duration: 0.5s;
+	transition-property: background-color;
+	transition-timing-function: ease-in;
+	width: 160px;
+	text-align: center;
+	line-height: 45px;
+	text-decoration: none;
+}
+
+#chek:hover {
+	background-color: crimson;
+}
